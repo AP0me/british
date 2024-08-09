@@ -1,0 +1,290 @@
+html, body{ margin: 0; }
+.just{
+  justify-self: center;
+}
+.align{
+  align-self: center;
+}
+.stack{
+  grid-area: 1 / 1;
+}
+
+.logo-number{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(9, 43, 106);
+}
+.logo-number>a{
+  font-size: 30px;
+  justify-self: end;
+  color: white;
+}
+.logo-number>img{
+  height: 100px;
+}
+.callnumber{
+  text-decoration: none;
+}
+
+
+
+
+.english-center{
+  display: grid;
+}
+
+.blue-woman-img{
+  background-image: url('../img/ingilis-dili-oyrenmek.jpg');
+  height: 400px;
+  background-position-x: -65px;
+  background-repeat: no-repeat;
+  background-color: rgb(0, 162, 255);
+}
+
+
+.contact-form{
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  gap: 10px;
+  background-image: linear-gradient(to bottom, red, rgb(124, 0, 0));
+  width: 100%;
+  height: 360px;
+  padding-top: 30px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.contact-form input{
+  padding-left: 10px;
+  outline: 0;
+}
+.contact-form select{ padding-left: 10px; }
+.info-submit{
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+  border: 0;
+  border-radius: 3px;
+}
+
+.speech-from{
+  display: grid;
+  grid-template-columns: 320px auto 300px;
+  padding: 20px;
+  gap: 10px;
+}
+.speech-from>.contact-form{
+  width: 100%;
+  padding-top: 30px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.speech-from>.contact-form>.free-info{
+  font-size: 20px;
+  height: min-content;
+}
+.free-info, .speech{
+  color: white;
+}
+.speech{
+  height: fit-content;
+  background-color: #00abff4f;
+}
+
+
+
+.promise{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  height: fit-content;
+  padding: 25px;
+  gap: 40px;
+}
+.promise>.promises{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+.ptext-ptick{
+  display: grid;
+  grid-template-columns: 50px auto;
+  grid-template-rows: 50px auto;
+  gap: 10px;
+}
+.promise-tick{
+  height: 50px;
+  width: 50px;
+  background-image: url('../img/british-centre-de-oyrendikden-sonra-ok.png');
+}
+.promise-title{
+  font-size: 30px;
+  text-align: center;
+}
+.promise-text-title{
+  font-style: italic;
+  font-weight: bolder;
+}
+
+
+
+.methods{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.method>.method-image{
+  height: 102px;
+  width: 102px;
+}
+.mimg1{ background-image: url('../img/british-centre-de-oyrendikden-sonra-effektiv-netice.png'); }
+.mimg2{ background-image: url('../img/british-centre-de-oyrendikden-sonra-intensiv.png'); }
+.mimg3{ background-image: url('../img/british-centre-de-oyrendikden-sonra-sertifikat.png'); }
+.mimg4{ background-image: url('../img/british-centre-de-oyrendikden-sonra-bizi-secirler.png'); }
+.method{
+  display: grid;
+  grid-template-rows: 102px auto auto;
+  gap: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+.success-rate{
+  display: grid;
+  grid-template-columns: auto 300px;
+  padding: 20px;
+}
+.guarantee{
+  padding: 20px;
+}
+.guarantee>h1{
+  text-align: center;
+  font-style: italic;
+}
+
+
+
+
+.goals{
+  display: grid;
+}
+.gcircle{
+  display: grid;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  right: 270px;
+  bottom: 130px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  justify-self: end;
+  align-self: end;
+  text-align: center;
+}
+.goals-text{
+  display: grid;
+  width: calc(100% - 450px);
+  padding: 20px;
+}
+.goals-title{
+  text-align: center;
+  font-style: italic;
+}
+.goals-text h2{
+  text-align: center;
+  font-style: italic;
+}
+.ggradient{
+  background-image: linear-gradient(to right, rgb(0, 119, 255), white);
+  z-index: -1;
+}
+.gwoman{
+  position: relative;
+  height: 350px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-image: url('../img/ingilis_dili_oyrenmek.png');
+  background-size: 300px;
+  justify-self: end;
+  align-self: end;
+}
+
+
+
+
+.contact{
+  display: grid;
+  background-color: rgb(9, 43, 106);
+  color: white;
+}
+.contact>div{
+  padding: 20px;
+  width: fit-content;
+  text-align: center;
+}
+.contact p{
+  text-align: center;
+}
+.contact>div a{
+  color: white;
+  text-decoration: none;
+}
+.contact>div a:hover{
+  text-decoration: underline;
+}
+.contact-table{
+  display: grid;
+}
+.contacts{
+  display: grid;
+  gap: 5px;
+}
+
+
+@media screen and (max-width: 910px) {
+  .speech-from{
+    grid-template-columns: unset;
+  }
+  .success-rate{
+    grid-template-columns: unset;
+  }
+  .promise>.promises{
+    grid-template-columns: unset;
+  }
+  .methods{
+    grid-template-columns: auto auto;
+  }
+  .goals-text {
+    width: unset;
+    margin-bottom: 300px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .methods{
+    grid-template-columns: unset;
+  }
+  .gwoman{
+    display: none;
+  }
+  .goals-text {
+    margin-bottom: 200px;
+  }
+  .gcircle{
+    right: 200px;
+    border-radius: unset;
+    width: 100%;
+    right: unset;
+    bottom: 30px;
+  }
+  .logo-number{
+    grid-template-columns: unset;
+  }
+  .logo-number>a, .logo-number>img{
+    justify-self: center;
+  }
+}
