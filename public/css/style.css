@@ -9,27 +9,41 @@ html, body{ margin: 0; }
   grid-area: 1 / 1;
 }
 
+body{
+  display: grid;
+}
+.section{
+  width: 100%;
+  max-width: 1500px;
+  box-sizing: border-box;
+  justify-self: center;
+}
+
 .logo-number{
   display: grid;
-  grid-template-columns: auto auto;
   padding: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: rgb(9, 43, 106);
 }
-.logo-number>a{
+.logo-number-max{
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto;
+  max-width: 850px;
+  justify-self: center;
+}
+.logo-number-max>a{
   font-size: 30px;
   justify-self: end;
   color: white;
 }
-.logo-number>img{
+.logo-number-max>img{
   height: 100px;
 }
 .callnumber{
   text-decoration: none;
 }
-
-
 
 
 .english-center{
@@ -72,7 +86,7 @@ html, body{ margin: 0; }
 
 .speech-from{
   display: grid;
-  grid-template-columns: 320px auto 300px;
+  grid-template-columns: 320px 1fr 1fr;
   padding: 20px;
   gap: 10px;
 }
@@ -81,6 +95,7 @@ html, body{ margin: 0; }
   padding-top: 30px;
   padding: 30px;
   box-sizing: border-box;
+  max-width: 300px;
 }
 .speech-from>.contact-form>.free-info{
   font-size: 20px;
@@ -91,7 +106,6 @@ html, body{ margin: 0; }
 }
 .speech{
   height: fit-content;
-  background-color: #00abff4f;
 }
 
 
@@ -107,6 +121,8 @@ html, body{ margin: 0; }
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
+  max-width: 850px;
+  justify-self: center;
 }
 .ptext-ptick{
   display: grid;
@@ -122,6 +138,8 @@ html, body{ margin: 0; }
 .promise-title{
   font-size: 30px;
   text-align: center;
+  max-width: 850px;
+  justify-self: center;
 }
 .promise-text-title{
   font-style: italic;
@@ -133,6 +151,8 @@ html, body{ margin: 0; }
 .methods{
   display: grid;
   grid-template-columns: auto auto auto auto;
+  max-width: 850px;
+  justify-self: center;
 }
 .method>.method-image{
   height: 102px;
@@ -156,6 +176,8 @@ html, body{ margin: 0; }
   display: grid;
   grid-template-columns: auto 300px;
   padding: 20px;
+  max-width: 850px;
+  justify-self: center;
 }
 .guarantee{
   padding: 20px;
@@ -170,6 +192,11 @@ html, body{ margin: 0; }
 
 .goals{
   display: grid;
+}
+.goals-max{
+  display: grid;
+  max-width: 850px;
+  justify-self: center;
 }
 .gcircle{
   display: grid;
@@ -262,7 +289,14 @@ html, body{ margin: 0; }
     width: unset;
     margin-bottom: 300px;
   }
+  .speech{
+    background-color: #00abff4f;
+  }
+  .speech-from>.contact-form{
+    max-width: unset;
+  }
 }
+
 
 @media screen and (max-width: 750px) {
   .methods{

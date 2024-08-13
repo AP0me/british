@@ -9,9 +9,11 @@
   <title>İngilizceyi Merkezde Öğrenin | BRITISH CENTRE</title>
 </head>
 <body>
-  <nav class="logo-number">
-    <img src="./img/logo.png" alt="logo" class="align">
-    <a type="tel" href="tel:+994123100894" class="callnumber align">(012)-310-08-94</a>
+  <nav class="logo-number section">
+    <div class="logo-number-max">
+      <img src="./img/logo.png" alt="logo" class="align">
+      <a type="tel" href="tel:+994123100894" class="callnumber align">(012)-310-08-94</a>
+    </div>
   </nav>
   <div class="english-center section">
     <div class="stack blue-woman-img"></div>
@@ -72,30 +74,32 @@
       </div>
     </div>
   </div>
-  <div class="goals section">
-    <div class="goals-img stack"></div>
-    <div class="gcircle stack">
-      <div class="just align" style="width: fit-content; height: fit-content; font-size: 20px">Akıcı bir şekilde İngilizce iletişim kurmayı öğrenin!</div>
-    </div>
-    <div class="ggradient stack"></div>
-    <div class="gwoman stack"></div>
-    <div class="goals-text stack">
-      <h1 class="goals-title">EĞİTİMDE HEDEFİNİZ NE?</h1>
-      <div class="goal1">
-        <h2>Kariyer gelişimi</h2>
-        <div>İngilizce konuşan profesyoneller, İngilizce bilmeyen profesyonellerden %30 daha fazla kazanıyor ve iş ararken iş bulma olasılıkları da daha yüksek.</div>
+  <div class="goals section ggradient">
+    <div class="goals-max">
+      <div class="goals-img stack"></div>
+      <div class="gcircle stack">
+        <div class="just align" style="width: fit-content; height: fit-content; font-size: 20px">Akıcı bir şekilde İngilizce iletişim kurmayı öğrenin!</div>
       </div>
-      <div class="goal2">
-        <h2>Seyahat ederken iletişim kurun</h2>
-        <div>İngilizce bilmediğiniz için yurt dışına çıktığınızda utanmayacaksınız. İngilizceyi daha iyi anlayacaksın. Temel olarak, herhangi bir konuda iletişim kurabileceksiniz.</div>
-      </div>
-      <div class="goal3">
-        <h2>Prestijli eğitim</h2>
-        <div>British Centre ile dünyanın önde gelen üniversitelerinin ve işletme okullarının ihtiyaç duyduğu İngilizcenizi geliştirebilir ve uluslararası sınavlara hazırlanabilirsiniz.</div>
-      </div>
-      <div class="goal4">
-        <h2>Konuşma ingilizcesi</h2>
-        <div>Artık hata yapmaktan korkmayacaksınız ve konuşamamakla ilgili tüm korkularınız geçmişte kalacak.</div>
+      <div class="stack"></div>
+      <div class="gwoman stack"></div>
+      <div class="goals-text stack">
+        <h1 class="goals-title">EĞİTİMDE HEDEFİNİZ NE?</h1>
+        <div class="goal1">
+          <h2>Kariyer gelişimi</h2>
+          <div>İngilizce konuşan profesyoneller, İngilizce bilmeyen profesyonellerden %30 daha fazla kazanıyor ve iş ararken iş bulma olasılıkları da daha yüksek.</div>
+        </div>
+        <div class="goal2">
+          <h2>Seyahat ederken iletişim kurun</h2>
+          <div>İngilizce bilmediğiniz için yurt dışına çıktığınızda utanmayacaksınız. İngilizceyi daha iyi anlayacaksın. Temel olarak, herhangi bir konuda iletişim kurabileceksiniz.</div>
+        </div>
+        <div class="goal3">
+          <h2>Prestijli eğitim</h2>
+          <div>British Centre ile dünyanın önde gelen üniversitelerinin ve işletme okullarının ihtiyaç duyduğu İngilizcenizi geliştirebilir ve uluslararası sınavlara hazırlanabilirsiniz.</div>
+        </div>
+        <div class="goal4">
+          <h2>Konuşma ingilizcesi</h2>
+          <div>Artık hata yapmaktan korkmayacaksınız ve konuşamamakla ilgili tüm korkularınız geçmişte kalacak.</div>
+        </div>
       </div>
     </div>
   </div>
